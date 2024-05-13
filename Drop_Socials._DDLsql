@@ -1,0 +1,15 @@
+drop table TTS.FriendTable;
+drop table TTS.LikeTable;
+drop table TTS.CommentTable;
+drop table TTS.PostTable;
+drop table TTS.UserTable;
+
+drop sequence TTS.uid_seq;
+drop sequence TTS.pid_seq;
+drop sequence TTS.com_seq;
+drop sequence TTS.like_seq;
+drop sequence TTS.friend_seq;
+
+drop user TTSUser;
+
+drop database TTS;
